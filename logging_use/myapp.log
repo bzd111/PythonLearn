@@ -1,0 +1,18 @@
+2017-03-09 14:44:43,382 - myapp.py:25 - MyApp - Starting my app
+2017-03-09 14:44:43,382 - myapp.py:30 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/myapp.py", line 27, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+2017-03-09 14:44:43,382 - myapp.py:31 - MyApp - Ending my app
+INFO:2017-03-11 16:43:13,446 - myapp.py:24 - MyApp - Starting my app
+ERROR:2017-03-11 16:43:13,459 - myapp.py:29 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/myapp.py", line 26, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+INFO:2017-03-11 16:43:13,459 - myapp.py:30 - MyApp - Ending my app

@@ -1,0 +1,81 @@
+2017-03-09 15:18:40,176 - log_from_dict.py:28 - MyApp - Starting my app
+2017-03-09 15:18:40,176 - log_from_dict.py:33 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/log_from_dict.py", line 30, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+2017-03-09 15:18:40,176 - log_from_dict.py:34 - MyApp - Ending my app
+2017-03-09 15:28:47,966 - log_from_dict.py:28 - MyApp - Starting my app
+2017-03-09 15:28:47,966 - log_from_dict.py:33 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/log_from_dict.py", line 30, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+2017-03-09 15:28:47,967 - log_from_dict.py:34 - MyApp - Ending my app
+2017-03-09 15:29:19,154 - log_from_dict.py:28 - MyApp - Starting my app
+2017-03-09 15:29:19,154 - log_from_dict.py:33 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/log_from_dict.py", line 30, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+2017-03-09 15:29:19,155 - log_from_dict.py:34 - MyApp - Ending my app
+2017-03-09 15:30:56,440 - log_from_dict.py:27 - MyApp - Starting my app
+2017-03-09 15:30:56,440 - log_from_dict.py:32 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/log_from_dict.py", line 29, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+2017-03-09 15:30:56,440 - log_from_dict.py:33 - MyApp - Ending my app
+INFO - 2017-03-09 15:34:17,342 - log_from_dict.py:27 - MyApp - Starting my app
+ERROR - 2017-03-09 15:34:17,344 - log_from_dict.py:32 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/log_from_dict.py", line 29, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+INFO - 2017-03-09 15:34:17,344 - log_from_dict.py:33 - MyApp - Ending my app
+INFO:2017-03-11 17:06:29,542 - log_from_dict.py:28 - MyApp - Starting my app
+ERROR:2017-03-11 17:06:29,559 - log_from_dict.py:33 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/log_from_dict.py", line 30, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+INFO:2017-03-11 17:06:29,559 - log_from_dict.py:34 - MyApp - Ending my app
+INFO:2017-03-11 17:10:26,983 - log_from_dict.py:31 - MyApp - Starting my app
+ERROR:2017-03-11 17:10:26,983 - log_from_dict.py:36 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/log_from_dict.py", line 33, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+INFO:2017-03-11 17:10:26,983 - log_from_dict.py:37 - MyApp - Ending my app
+INFO:2017-03-11 17:11:25,762 - log_from_dict.py:31 - MyApp - Starting my app
+ERROR:2017-03-11 17:11:25,762 - log_from_dict.py:36 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/log_from_dict.py", line 33, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+INFO:2017-03-11 17:11:25,763 - log_from_dict.py:37 - MyApp - Ending my app
+INFO:2017-03-11 17:15:13,161 - log_from_dict.py:31 - MyApp - Starting my app
+ERROR:2017-03-11 17:15:13,161 - log_from_dict.py:36 - MyApp - There was a problem.
+Traceback (most recent call last):
+  File "E:/Code/Learn_Web/logging_use/log_from_dict.py", line 33, in <module>
+    mymoudle.doIt()
+  File "E:\Code\Learn_Web\logging_use\mymoudle.py", line 9, in doIt
+    raise TypeError, "Bogus type error for testing"
+TypeError: Bogus type error for testing
+INFO:2017-03-11 17:15:13,161 - log_from_dict.py:37 - MyApp - Ending my app
