@@ -1,0 +1,3 @@
+DB_HOST = '10.1.10.68'
+DB_PORT = 27017
+DATABASE_NAME = 'systems'
