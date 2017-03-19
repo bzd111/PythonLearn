@@ -1,1 +1,7 @@
-###Recode Python Knowledge
+
+## Recode Python Knowledge
+
+
+```
+specification code and habit
+```
