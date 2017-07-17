@@ -42,7 +42,7 @@ class LoginHandler(tornado.web.RequestHandler):
         if username == cookie_user and password == cookie_pass:
             self.write("Hello, " + username)
         else:
-            self.write("ÓÃ»§Ãû£¬ÃÜÂë´íÎó")
+            self.write("ç”¨æˆ·åæˆ–è€…å¯†ç é”™è¯¯")
 
 
 settings = {
