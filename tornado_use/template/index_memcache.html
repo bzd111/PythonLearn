@@ -1,0 +1,23 @@
+<!-- template\index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<form action="/" method="post">
+    set/del：<input type="text" name="action" value="set"/>
+    Key: <input type="text" name="key"/>
+    Val: <input type="text" name="value"/>
+    <input type="submit" value="设置"/>
+</form>
+<ul>
+    {% for key, value in Data.items()%}
+        {% if key%}
+        <li>{{ key }} : {{ value }}</li>
+        {% end %}
+    {% end %}
+</ul>
+</body>
+</html>
