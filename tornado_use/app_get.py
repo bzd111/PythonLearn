@@ -1,7 +1,6 @@
 # coding:utf-8
-
-import tornado.web
 import tornado.ioloop
+import tornado.web
 
 
 class MainHandler(tornado.web.RequestHandler):
@@ -10,7 +9,7 @@ class MainHandler(tornado.web.RequestHandler):
 
 
 application = tornado.web.Application([
-    (r'/', MainHandler),
+    (r'/(.*?)', MainHandler),
 ])
 
 if __name__ == "__main__":
