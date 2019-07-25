@@ -1,0 +1,33 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+appdirs = "==1.4.2"
+colorama = "==0.3.7"
+decorator = "==4.0.11"
+enum34 = "==1.1.6"
+fake-useragent = "==0.1.5"
+ipython = "==5.0.0"
+mongoengine = "==0.11.0"
+pathlib2 = "==2.2.1"
+pickleshare = "==0.7.4"
+pymongo = "==3.4.0"
+pyparsing = "==2.2.0"
+requests = ">=2.20.0"
+scandir = "==1.5"
+simplegeneric = "==0.8.1"
+six = "==1.10.0"
+traitlets = "==4.3.2"
+wcwidth = "==0.1.7"
+Pygments = "==2.2.0"
+"backports.shutil_get_terminal_size" = "==1.0.0"
+ipython_genutils = "==0.1.0"
+prompt_toolkit = "==1.0.13"
+win_unicode_console = "==0.5"
+
+[requires]
+python_version = "3.7"
