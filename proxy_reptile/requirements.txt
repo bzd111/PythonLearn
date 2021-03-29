@@ -1,4 +1,4 @@
-Pygments==2.2.0
+Pygments==2.7.4
 appdirs==1.4.2
 backports.shutil-get-terminal-size==1.0.0
 colorama==0.3.7
